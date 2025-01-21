@@ -7,3 +7,4 @@ class Solution:
             bot += grid[1][i-1]
             maxx = min(maxx, max(bot, top))
         return maxx
+# this can be done using prefix sum
